@@ -1,0 +1,9 @@
+<div class="row">
+  <aside class="col-sm-4">
+    <%= render 'users/user_info' %>
+  </aside>
+  <div class="col-sm-8">
+    <%= render 'users/link_tab' %>
+    <%= render 'users', users: @users %>
+  </div>
+</div>
